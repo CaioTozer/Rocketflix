@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocketflix</title>
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+       
+        <nav>
+        <img src="./shuffle.svg" alt="Logo" id="logo">
+        <h1>Não sabe o que assistir?</h1>
+       </nav>
+
+       <div id="movie">
+        <img src="" id="posterMovie" class="displayInvisible">
+        <main >
+         <p id="titleMovie"></p>
+         <p id="descriptionMovie"></p>
+        </main>
+       </div>
+
+      <footer>
+        <button id="btn" onclick="getMovie()">
+            <img src="./favicon.ico" id="icon">
+            <p id="findMovie"> Encontrar filme</p>
+           </button>
+
+           <p id="info">
+            Clique em "Encontrar filme" que traremos informações <br>
+            de algum filme para você assistir hoje.
+           </p>
+      </footer>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
