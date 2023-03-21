@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(to top right,#1E46A3, #000000, #C12A23);
+    background: linear-gradient(to top right, #1E46A3, #000000, #C12A23);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -14,9 +14,10 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 div #container {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
     width: 630px;
 
@@ -84,6 +85,7 @@ footer {
     font-size: 14px;
     margin-top: 3vh;
 }
+
 #posterMovie {
     width: 171px;
     height: 244px;
@@ -100,7 +102,7 @@ main {
     width: 423px;
     margin-top: 3vh;
     margin-left: 35px;
- 
+
 }
 
 #titleMovie {
